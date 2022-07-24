@@ -119,10 +119,18 @@ namespace Cookies_Loader_Base
 
         #region API Config
         public static api KeyAuthApp = new api(
+        
+        
+        
+        /////////////////////////////// ADD YOURS KEYAUTH DETAILS HERE /////////////////////////////////////////
             name: "",
             ownerid: "",
             secret: "",
             version: "1.0"
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+            
+            
         );
         #endregion
 

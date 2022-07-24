@@ -57,19 +57,21 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu.Core">
+      <HintPath>..\Assets\Bunifu.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+      <HintPath>..\Assets\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="DiscordRPC">
-      <HintPath>..\..\..\..\Downloads\Discord-RPC-main\Discord-RPC-main\packages\DiscordRichPresence.1.0.175\lib\net35\DiscordRPC.dll</HintPath>
+      <HintPath>..\Assets\DiscordRPC.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Downloads\Discord-RPC-main\Discord-RPC-main\packages\Newtonsoft.Json.13.0.1-beta1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Siticone.UI">
-      <HintPath>..\..\..\..\Downloads\KeyAuth-CS-Example-main\KeyAuth-CS-Example-main\Form\bin\Debug\Siticone.UI.dll</HintPath>
+      <HintPath>..\Assets\Siticone.UI.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
@@ -152,6 +154,7 @@
     </EmbeddedResource>
     <None Include="app.manifest" />
     <None Include="config.json" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
